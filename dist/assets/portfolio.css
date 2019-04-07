@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #BABDBE;
+    display: grid;
+    padding: 50px;
+    grid-template-columns: 20% 60% 20%;
+    justify-items: center;
+}
+
+#navbar #navbar-logo a {
+    color: black;
+    text-decoration: none;
+}
+
+#navbar #navbar-items a {
+    color: black;
+    text-decoration: none;
+    padding: 0 20px;
+}
