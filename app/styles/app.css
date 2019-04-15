@@ -88,15 +88,41 @@ body {
 
 .grid {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
     justify-items: center;
 }
 
 .grid-card {
-    min-width: 300px;
+    min-width: 250px;
+    max-width: 300px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
 }
 
 .purple-border {
     border: 2px solid #891CCE;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+}
+
+.project-text {
+    line-height: 1.5;
+}
+
+.purple-button {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #6601a5;
+    color: #fff;
+    padding: 7px;
+    text-align: center;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+#projects {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
