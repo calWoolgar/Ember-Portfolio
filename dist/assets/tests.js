@@ -34,12 +34,27 @@ define("portfolio/tests/lint/tests.lint-test", [], function () {
     assert.expect(1);
     assert.ok(true, 'test-helper.js should pass ESLint\n\n');
   });
+  QUnit.test('unit/routes/about-test.js', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'unit/routes/about-test.js should pass ESLint\n\n');
+  });
 });
 define("portfolio/tests/test-helper", ["portfolio/app", "portfolio/config/environment", "@ember/test-helpers", "ember-qunit"], function (_app, _environment, _testHelpers, _emberQunit) {
   "use strict";
 
   (0, _testHelpers.setApplication)(_app.default.create(_environment.default.APP));
   (0, _emberQunit.start)();
+});
+define("portfolio/tests/unit/routes/about-test", ["qunit", "ember-qunit"], function (_qunit, _emberQunit) {
+  "use strict";
+
+  (0, _qunit.module)('Unit | Route | about', function (hooks) {
+    (0, _emberQunit.setupTest)(hooks);
+    (0, _qunit.test)('it exists', function (assert) {
+      let route = this.owner.lookup('route:about');
+      assert.ok(route);
+    });
+  });
 });
 define('portfolio/config/environment', [], function() {
   var prefix = 'portfolio';
