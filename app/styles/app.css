@@ -40,6 +40,18 @@ body {
     }
 }
 
+@media (max-width: 750px){
+    .container {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 550px){
+    .container {
+        max-width: 300px;
+    }
+}
+
 .shadow {
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
 }
@@ -68,4 +80,8 @@ body {
 .text-block {
     font-size: 1.3rem;
     line-height: 1.7
+}
+
+.text-centre {
+    text-align: center;
 }
