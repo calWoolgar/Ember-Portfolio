@@ -295,8 +295,8 @@
   _exports.default = void 0;
 
   var _default = Ember.HTMLBars.template({
-    "id": "EQEV0rvI",
-    "block": "{\"symbols\":[],\"statements\":[[7,\"div\"],[11,\"class\",\"bg-grey-lighter h-100\"],[9],[0,\"\\n    \"],[7,\"div\"],[11,\"id\",\"navbar\"],[11,\"class\",\"shadow bg-grey-lighter\"],[9],[0,\"\\n    \"],[7,\"div\"],[11,\"id\",\"navbar-logo\"],[9],[0,\"\\n        \"],[7,\"a\"],[11,\"href\",\"#\"],[9],[0,\"Callam Woolgar\"],[10],[0,\"\\n    \"],[10],[0,\"\\n    \"],[7,\"div\"],[11,\"id\",\"navbar-items\"],[9],[0,\"\\n        \"],[7,\"a\"],[11,\"href\",\"#\"],[9],[0,\"Home\"],[10],[0,\"\\n        \"],[7,\"a\"],[11,\"href\",\"#\"],[9],[0,\"About \"],[10],[0,\"\\n        \"],[7,\"a\"],[11,\"href\",\"#\"],[9],[0,\"Contact\"],[10],[0,\"\\n        \"],[7,\"a\"],[11,\"href\",\"#\"],[9],[0,\"Twttr\"],[10],[0,\"\\n    \"],[10],[0,\"\\n    \"],[7,\"div\"],[9],[10],[0,\"\\n\"],[10],[0,\"\\n\"],[7,\"div\"],[11,\"class\",\"container mx-auto mt-40\"],[9],[0,\"\\n    \"],[7,\"h1\"],[11,\"class\",\"text-shadow\"],[9],[7,\"span\"],[11,\"class\",\"text-purple\"],[9],[0,\"Full Stack\"],[10],[0,\" Developer\"],[10],[0,\"\\n    \"],[7,\"p\"],[9],[10],[0,\"\\n\"],[10],[0,\"\\n\"],[10]],\"hasEval\":false}",
+    "id": "jPgMP1w1",
+    "block": "{\"symbols\":[],\"statements\":[[7,\"div\"],[11,\"class\",\"bg-grey-lighter h-100\"],[9],[0,\"\\n    \"],[7,\"div\"],[11,\"id\",\"navbar\"],[11,\"class\",\"shadow bg-grey-lighter\"],[9],[0,\"\\n    \"],[7,\"div\"],[11,\"id\",\"navbar-logo\"],[9],[0,\"\\n        \"],[7,\"a\"],[11,\"href\",\"#\"],[9],[0,\"Callam Woolgar\"],[10],[0,\"\\n    \"],[10],[0,\"\\n    \"],[7,\"div\"],[11,\"id\",\"navbar-items\"],[9],[0,\"\\n        \"],[7,\"a\"],[11,\"href\",\"#\"],[9],[0,\"HOME\"],[10],[0,\"\\n        \"],[7,\"a\"],[11,\"href\",\"#\"],[9],[0,\"ABOUT \"],[10],[0,\"\\n        \"],[7,\"a\"],[11,\"href\",\"#\"],[9],[0,\"CONTACT\"],[10],[0,\"\\n        \"],[7,\"a\"],[11,\"href\",\"https://twitter.com/callam_woolgar\"],[11,\"target\",\"_blank\"],[9],[7,\"i\"],[11,\"class\",\"fab fa-twitter\"],[9],[10],[10],[0,\"\\n    \"],[10],[0,\"\\n    \"],[7,\"div\"],[9],[10],[0,\"\\n\"],[10],[0,\"\\n\"],[7,\"div\"],[11,\"class\",\"container mx-auto mt-40\"],[9],[0,\"\\n    \"],[7,\"h1\"],[11,\"class\",\"text-shadow\"],[9],[7,\"span\"],[11,\"class\",\"text-purple\"],[9],[0,\"Full Stack\"],[10],[0,\" Developer\"],[10],[0,\"\\n    \"],[7,\"p\"],[11,\"class\",\"text-block\"],[9],[0,\"Hello! My name is Callam Woolgar and I'm a Full-Stack Developer from Oxfordshire, England.\\n        I work for a company called Adactus and for them I create frontend and backend code for our clients.\\n        I choose being a software developer as my career because I love technology and the convenience that it brings to the world. \\n    \"],[10],[0,\"\\n\"],[10],[0,\"\\n\"],[10]],\"hasEval\":false}",
     "meta": {
       "moduleName": "portfolio/templates/application.hbs"
     }
@@ -327,7 +327,7 @@ catch(err) {
 
 ;
           if (!runningTests) {
-            require("portfolio/app")["default"].create({"name":"portfolio","version":"0.0.0+8ca1116c"});
+            require("portfolio/app")["default"].create({"name":"portfolio","version":"0.0.0+6dd7fe49"});
           }
         
 //# sourceMappingURL=portfolio.map
