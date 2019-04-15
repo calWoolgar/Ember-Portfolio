@@ -23,7 +23,7 @@ define("portfolio/tests/lint/templates.template.lint-test", [], function () {
   QUnit.module('TemplateLint');
   QUnit.test('portfolio/templates/application.hbs', function (assert) {
     assert.expect(1);
-    assert.ok(false, 'portfolio/templates/application.hbs should pass TemplateLint.\n\nportfolio/templates/application.hbs\n  2:4  error  Incorrect indentation for `<div>` beginning at L2:C4. Expected `<div>` to be at an indentation of 2 but was found at 4.  block-indentation\n  5:4  error  Incorrect indentation for `<div>` beginning at L5:C4. Expected `<div>` to be at an indentation of 2 but was found at 4.  block-indentation\n  11:4  error  Incorrect indentation for `<div>` beginning at L11:C4. Expected `<div>` to be at an indentation of 2 but was found at 4.  block-indentation\n  3:8  error  Incorrect indentation for `<a>` beginning at L3:C8. Expected `<a>` to be at an indentation of 6 but was found at 8.  block-indentation\n  6:8  error  Incorrect indentation for `<a>` beginning at L6:C8. Expected `<a>` to be at an indentation of 6 but was found at 8.  block-indentation\n  7:8  error  Incorrect indentation for `<a>` beginning at L7:C8. Expected `<a>` to be at an indentation of 6 but was found at 8.  block-indentation\n  8:8  error  Incorrect indentation for `<a>` beginning at L8:C8. Expected `<a>` to be at an indentation of 6 but was found at 8.  block-indentation\n  9:8  error  Incorrect indentation for `<a>` beginning at L9:C8. Expected `<a>` to be at an indentation of 6 but was found at 8.  block-indentation\n');
+    assert.ok(true, 'portfolio/templates/application.hbs should pass TemplateLint.\n\n');
   });
 });
 define("portfolio/tests/lint/tests.lint-test", [], function () {
