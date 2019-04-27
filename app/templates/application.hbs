@@ -1,54 +1,13 @@
-<div class="bg-grey-lighter">
-    <div id="navbar" class="shadow bg-grey-lighter">
+<div id="navbar" class="shadow bg-grey-lighter">
     <div id="navbar-logo">
         <a href="#" class="text-centre">CALLAM <br>WOOLGAR</a>
     </div>
     <div id="navbar-items">
-        <a href="#">HOME</a>
-        <a href="#projects">PROJECTS </a>
-        <a href="#contact">CONTACT</a>
+        {{#link-to "home"}}HOME{{/link-to}}
+        {{#link-to "work"}}WORK{{/link-to}}
+        {{#link-to "contact"}}CONTACT{{/link-to}}
+        {{#link-to "blog"}}BLOG{{/link-to}}
         <a href="https://twitter.com/callam_woolgar" target="_blank"><i class="fab fa-twitter"></i></a>
     </div>
-    <div></div>
 </div>
-<div class="container mx-auto mt-40">
-    <h1 class="text-shadow"><span class="text-purple">Full Stack</span> Developer</h1>
-    <p class="text-block">Hello! My name is Callam Woolgar and I'm a Full-Stack Developer from Oxfordshire, England.
-        I work for a company called Adactus and for them I create frontend and backend code for our clients.
-        I choose being a software developer as my career because I love technology and the convenience that it brings to the world. 
-    </p>
-    <br>
-    <p class="text-block">
-        If you are interested in working with me, need a hand with coding, or just want to chat, feel free to drop me an email.
-    </p>
-    <hr>
-
-    <div id="projects">
-        <h2 class="text-centre">PROJECTS</h2>
-        <div class="grid">
-            <div class="grid-card purple-border">
-                <h3>Cal Woolgar</h3>
-                <p class="project-text">I made this website so that I could prove to myself that I could build a website from scratch and then deploy it so that the world could see. If you're reading this now I have accomplished that goal!</p>
-                <a href="#" class="purple-button">VISIT SITE <i class="fa fa-arrow-right"></i></a>
-            </div>
-            <div class="grid-card purple-border">
-                <h3>Adactus</h3>
-                <p class="project-text">While working for Adactus I worked on many different projects and lots of different that came with those projects. I mainly worked with C# but in recent times I have been focused on JavaScript and Java as my main languages.</p>
-                <a href="https://www.Adactus.co.uk" target="_blank" class="purple-button">VISIT SITE <i class="fa fa-arrow-right"></i></a>
-            </div>
-        </div>    
-    </div>
-    <hr>
-
-    <div id="contact"  class="text-centre">
-        <h2>CONTACT</h2>
-        <div class="contact-info">
-            <p>Either contact me via email or Twitter and I'll get back to you ASAP.</p>
-            <p>Email:</p>
-            <p><a href="mailto:callamw1997@gmail.com">callamw1997@gmail.com</a></p>
-            <p>Twitter</p>
-            <a href="https://twitter.com/callam_woolgar" target="_blank"><i class="fab fa-twitter"></i></a>
-        </div>
-    </div>
-</div>
-</div>
+{{outlet}}

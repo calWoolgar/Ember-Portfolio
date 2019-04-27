@@ -1,4 +1,9 @@
+html {
+    height: 100%;
+}
+
 body {
+    height: 100%;
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -51,6 +56,7 @@ body {
 .container {
     max-width: 860px;
     padding-bottom: 40px;
+    height: CALC(100% - 136px);
 }
 
 .shadow {
@@ -91,6 +97,13 @@ body {
     display: grid;
     grid-template-columns: 50% 50%;
     justify-items: center;
+}
+
+.grid-central {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-items: center;
+    margin: 0 100px 50px 100px;
 }
 
 .grid-card {
