@@ -71,6 +71,12 @@ body {
     height: 100%;
 }
 
+@media (max-width: 751px){
+    .vertical-centre {
+        align-items: normal;
+    }
+}
+
 .home-text-block {
     padding: 30px;
     background-color: rgba(0,0,0,0.5)
