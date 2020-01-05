@@ -1,230 +1,120 @@
-html {
-    height: 100%;
-}
+/* Fonts
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Mono', monospace;
+*/
 
 body {
-    height: 100%;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
     margin: 0;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.h-100 {
-    height: 100%;
-}
-
-.full-screen-background {
-    height: 100vh;
-    background-image: url('/assets/images/duiker-island-2076042_1920.jpg')
-}
-
-.ember-view {
-    height: 100%;
-}
-
-#navbar {
-    overflow: hidden;
-    display: grid;
-    padding: 50px;
-    grid-template-columns: 20% 60% 20%;
-    justify-items: center;
-}
-
-#navbar #navbar-logo a {
-    color: #891CCE;
-    text-decoration: none;
-}
-
-#navbar #navbar-items a {
-    color: black;
-    text-decoration: none;
-    padding: 0 20px;
-}
-
-@media (max-width:735px){
-    #navbar {
-        grid-template-columns: 100%;
-        grid-row-gap: 20px;
-        text-align: center;
-    }
-}
-
-
-@media (max-width:482px){
-    #navbar-items {
-        display: grid;
-        grid-template-columns: 100%;
-        grid-row-gap: 20px;
-        text-align: center;
-    }
 }
 
 .container {
-    max-width: 860px;
-    height: CALC(100% - 136px);
+    height: 100vh;
+}
+
+.left {
+    background: rgb(0,51,204);
+    background: linear-gradient(90deg, rgba(0,51,204,1) 0%, rgba(1,87,190,1) 100%);
+    padding: 1.5em;
     color: white;
 }
 
-.vertical-centre {
+.header > h3 {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.1em;
+    margin: 0;
+}
+
+.content {
+    margin: 5em 0;
+}
+
+.title {
+    margin: 2em 0;
+}
+
+.title > h1 {
+    font-size: 28px;
+    letter-spacing: 0.2em;
+    margin: 0;
+}
+
+.sub-content {
+    margin: 2em 0;
+}
+
+.coming-soon {
+    font-weight: 200;
+    font-size: .8em;
+}
+
+.right {
+    padding: 1.5em;
+}
+
+.contact-me {
+    padding: 0.8em;
+    -moz-box-shadow: 0 0 5px #b9b9b9;
+    -webkit-box-shadow: 0 0 5px #b9b9b9;
+    box-shadow: 0 0 5px #b9b9b9;
+}
+
+.social {
     display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: center; 
-    height: 100%;
 }
 
-@media (max-width: 751px){
-    .vertical-centre {
-        align-items: normal;
-    }
+.social > a {
+    margin: 1.5em 2em;
+    width: 40px;
 }
 
-.home-text-block {
-    padding: 30px;
-    background-color: rgba(0,0,0,0.5)
+.social > a > i {
+    font-size: 2em;
+    color: black;
 }
 
-.work-text-block {
-    background-color: rgba(0,0,0,0.5);
-    padding: 20px 20px 40px 20px;
-}
-
-.contact-text-block{
-    background-color: rgba(0,0,0,0.5);
-    padding: 20px;
-}
-
-.color-white{
-    color: white;
-}
-
-.container p {
-    font-weight: 600;
-}
-
-.shadow {
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
-}
-
-.bg-grey-lighter {
-    background-color: #f3f7f9;
-}
-
-.mx-auto {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.mt-40 {
-    margin-top: 40px;
-}
-
-.pt-40 {
-    padding-top: 40px;
-}
-
-.text-purple {
-    color: #891CCE;
-}
-
-.text-shadow {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
-    margin-top: 0;
-}
-
-.text-block {
-    font-size: 1.3rem;
-    line-height: 1.7
-}
-
-.text-centre {
-    text-align: center;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    justify-items: center;
-}
-
-.grid-central {
-    display: grid;
-    grid-template-columns: 100%;
-    justify-items: center;
-    margin: 0 100px 50px 100px;
-}
-
-.grid-double {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-column-gap: 20px;
-}
-
-.grid-card {
-    min-width: 250px;
-    max-width: 300px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 5px;
-}
-
-.img-responsive {
-    height: 100%;
-    width: 100%;
-}
-
-.purple-border {
-    border: 2px solid #891CCE;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
-}
-
-.project-text {
-    line-height: 1.5;
-}
-
-.purple-button {
-    display: block;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #6601a5;
-    color: #fff;
-    padding: 7px;
-    text-align: center;
-    margin-bottom: 15px;
-    text-decoration: none;
-}
-
-#projects {
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-@media (max-width: 950px){
+@media only screen and (min-width: 1024px){
     .container {
-        max-width: 700px;
+        display: grid;
+        grid-template-columns: 50% auto;
     }
 
-    .grid-card {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-}
-
-@media (max-width: 750px){
-    .container {
-        max-width: 500px;
+    .title {
+        margin: 4em 0;
     }
 
-    .grid {
-        grid-template-columns: 100%;
+    .title > h1 {
+        font-size: 34px;
+        letter-spacing: 0.3em;
     }
 
-    .grid-card {
-        margin-bottom: 20px;
+    .content {
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
     }
-}
 
-@media (max-width: 550px){
-    .container {
-        max-width: 300px;
+    .sub-content {
+        margin: 3em 0;
     }
-}
+
+    .left {
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+
+    .contact-me {
+        padding: 2em;
+    }
+} 

@@ -1,13 +1,33 @@
-<div id="navbar" class="shadow bg-grey-lighter">
-    <div id="navbar-logo">
-        <a href="#" class="text-centre">CALLAM <br>WOOLGAR</a>
-    </div>
-    <div id="navbar-items">
-        {{#link-to "home"}}HOME{{/link-to}}
-        {{#link-to "work"}}WORK{{/link-to}}
-        {{#link-to "contact"}}CONTACT{{/link-to}}
-        {{!-- {{#link-to "blog"}}BLOG{{/link-to}} --}}
-        <a href="https://twitter.com/callam_woolgar" target="_blank"><i class="fab fa-twitter"></i></a>
-    </div>
-</div>
-{{outlet}}
+<div class="container">
+            <div class="left">
+                <div class="header">
+                    <h3>Cal Woolgar</h3>
+                </div>
+                <div class="content">
+                    <div class="title">
+                        <h1>Web Developer <span>& Designer</span></h1>
+                    </div>
+                    <div class="sub-content">
+                        <p>I create websites from 9-5 while studying for a degree so I can carry on doing what I enjoy.</p>
+                    </div>
+                    <div class="coming-soon">
+                        <p>Portfolio coming soon...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="contact-me">
+                    <p>I currently work for a software company in Oxfordshire.</p>
+                    <p>Contact me if you want to learn more about how I got to where I am today.</p>
+                    <br/>
+                    <a href="mailto:callamwoolgar@gmail.com">callamwoolgar@gmail.com</a>
+                </div>
+                <div class="social">
+                    <a href="https://twitter.com/callam_woolgar" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/callam-woolgar-352719112/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/channel/UCVe_D9xXXDwXyU2o0_cadxA" target="_blank"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+
+        {{outlet}}
