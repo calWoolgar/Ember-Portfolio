@@ -1,7 +1,19 @@
 /* Fonts
 font-family: 'Raleway', sans-serif;
 font-family: 'Roboto Mono', monospace;
+font-family 'Othersight', sans-serif;
 */
+
+/* Size in em if the property scales according to its font-size */
+/* Size everything else in rem. */
+
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+@import "components.css";
+
+@import "tailwindcss/utilities";
+@import "utilities.css";
 
 body {
     font-family: 'Roboto Mono', monospace;
@@ -9,112 +21,32 @@ body {
     margin: 0;
 }
 
-.container {
-    height: 100vh;
+.background-gradient {
+    background: rgb(17,61,174);
+    background: linear-gradient(180deg, rgba(17,61,174,1) 0%, rgba(20,17,134,1) 100%);
 }
 
-.left {
-    background: rgb(0,51,204);
-    background: linear-gradient(90deg, rgba(0,51,204,1) 0%, rgba(1,87,190,1) 100%);
-    padding: 1.5em;
+.home-section {
+    min-height: 100vh;
     color: white;
 }
 
-.header > h3 {
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: 0.1em;
-    margin: 0;
+.heading {
+    font-size: 10em;
+    font-family: Othersight;
 }
 
-.content {
-    margin: 5em 0;
+h3 {
+    font-size: 1.5rem;
+    color: rgba(226, 243, 245, 0.5);
 }
 
-.title {
-    margin: 2em 0;
-}
-
-.title > h1 {
-    font-size: 28px;
-    letter-spacing: 0.2em;
-    margin: 0;
-}
-
-.sub-content {
-    margin: 2em 0;
-}
-
-.coming-soon {
-    font-weight: 200;
-    font-size: .8em;
-}
-
-.right {
-    padding: 1.5em;
-}
-
-.contact-me {
-    padding: 0.8em;
-    -moz-box-shadow: 0 0 5px #b9b9b9;
-    -webkit-box-shadow: 0 0 5px #b9b9b9;
-    box-shadow: 0 0 5px #b9b9b9;
-}
-
-.social {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.sub-heading {
+    padding: 2em 0;
 }
 
 .social > a {
-    margin: 1.5em 2em;
-    width: 40px;
+    font-size: 4rem;
+    color: #C4D0F8;
+    margin-right: 2rem;
 }
-
-.social > a > i {
-    font-size: 2em;
-    color: black;
-}
-
-@media only screen and (min-width: 1024px){
-    .container {
-        display: grid;
-        grid-template-columns: 50% auto;
-    }
-
-    .title {
-        margin: 4em 0;
-    }
-
-    .title > h1 {
-        font-size: 34px;
-        letter-spacing: 0.3em;
-    }
-
-    .content {
-        max-width: 400px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .sub-content {
-        margin: 3em 0;
-    }
-
-    .left {
-        padding-left: 3em;
-        padding-right: 3em;
-    }
-
-    .right {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding-left: 3em;
-        padding-right: 3em;
-    }
-
-    .contact-me {
-        padding: 2em;
-    }
-} 
