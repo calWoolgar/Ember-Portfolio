@@ -33,7 +33,7 @@ body {
 
 .heading {
     font-size: 10em;
-    font-family: Othersight;
+    font-family: 'Oswald', sans-serif;
 }
 
 h3 {
@@ -49,4 +49,18 @@ h3 {
     font-size: 4rem;
     color: #C4D0F8;
     margin-right: 2rem;
+}
+
+.about-section {
+    height: 100vh;
+    background-color: #E2F3F5;
+}
+
+.about-heading > h1 {
+    font-size: 7em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.about-text > p {
+    max-width: 70%;
 }
