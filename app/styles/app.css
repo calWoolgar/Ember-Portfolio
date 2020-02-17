@@ -52,7 +52,7 @@ h3 {
 }
 
 .about-section {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #E2F3F5;
 }
 
@@ -63,4 +63,24 @@ h3 {
 
 .about-text > p {
     max-width: 70%;
+}
+
+.youtube-section {
+    min-height: 100vh;
+    background: rgb(34,209,238);
+    background: linear-gradient(180deg, rgba(34,209,238,1) 0%, rgba(34,209,238,0.01) 100%);
+    padding-bottom: 4em;
+}
+
+.youtube-heading > h1 {
+    font-size: 7em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.yt-subheading {
+    text-align: center;
+}
+
+.yt-subheading > p {
+    max-width: 50%;
 }
