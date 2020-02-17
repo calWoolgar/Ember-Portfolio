@@ -56,7 +56,9 @@ h3 {
     background-color: #E2F3F5;
 }
 
-.about-heading > h1 {
+.second-headings {
+    color: rgb(17,61,174);
+    color: linear-gradient(180deg, rgba(17,61,174,0.01) 0%, rgba(20,17,134,0.01) 100%);
     font-size: 7em;
     font-family: 'Oswald', sans-serif;
 }
@@ -72,15 +74,24 @@ h3 {
     padding-bottom: 4em;
 }
 
-.youtube-heading > h1 {
-    font-size: 7em;
-    font-family: 'Oswald', sans-serif;
-}
-
 .yt-subheading {
     text-align: center;
 }
 
 .yt-subheading > p {
     max-width: 50%;
+}
+
+.contact-text {
+    text-align: center;
+}
+
+footer {
+    padding: 1em;
+    color: #E2F3F5;
+    background-color: #0E153A;
+}
+
+.footer-links > a {
+    font-size: 3em;
 }
