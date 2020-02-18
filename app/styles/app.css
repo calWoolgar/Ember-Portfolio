@@ -1,7 +1,7 @@
 /* Fonts
 font-family: 'Raleway', sans-serif;
 font-family: 'Roboto Mono', monospace;
-font-family 'Othersight', sans-serif;
+font-family 'Oswald', sans-serif;
 */
 
 /* Size in em if the property scales according to its font-size */
@@ -92,6 +92,15 @@ footer {
     font-size: 3em;
 }
 
+.button {
+    border-radius: 15px;
+    color: #E2F3F5;
+}
+
+.button:hover {
+    box-shadow: 0 0 6px #0E153A;
+}
+
 @media only screen and (max-width: 640px){
     body {
         font-size: 8px;
@@ -120,6 +129,10 @@ footer {
     }
 
     .yt-subheading > p {
+        font-size: 1.7em;
+    }
+
+    .button {
         font-size: 1.7em;
     }
 }
