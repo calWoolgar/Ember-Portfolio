@@ -37,7 +37,7 @@ body {
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.5em;
     color: rgba(226, 243, 245, 0.5);
 }
 
@@ -46,7 +46,7 @@ h3 {
 }
 
 .social > a {
-    font-size: 4rem;
+    font-size: 4em;
     color: #C4D0F8;
     margin-right: 2rem;
 }
@@ -78,10 +78,6 @@ h3 {
     text-align: center;
 }
 
-.yt-subheading > p {
-    max-width: 50%;
-}
-
 .contact-text {
     text-align: center;
 }
@@ -94,4 +90,36 @@ footer {
 
 .footer-links > a {
     font-size: 3em;
+}
+
+@media only screen and (max-width: 640px){
+    body {
+        font-size: 8px;
+    }
+
+    .about-text > p {
+        max-width: 90%;
+        font-size: 1.7em;
+        padding: 5em 0;
+    }
+
+    .about-section {
+        min-height: auto;
+    }
+
+    .youtube-section {
+        min-height: auto;
+    }
+
+    .contact-text > p {
+        font-size: 1.7em;
+    }
+
+    .footer-text {
+        font-size: 1.7em;
+    }
+
+    .yt-subheading > p {
+        font-size: 1.7em;
+    }
 }
