@@ -8,6 +8,7 @@ const Router = EmberRouter.extend({
 
 Router.map(function() {
   this.route('index', { path: '/' })
+  this.route('blog');
 });
 
 export default Router;

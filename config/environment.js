@@ -2,6 +2,12 @@
 
 module.exports = function(environment) {
   let ENV = {
+    contentful: {
+      space: 'Ybz762on6p4vc',
+      accessToken: 'x3xm66wrw6Xsjf73gfQKTj6-u2Yc6nTFhlIu5Pb4IE4',
+      previewAccessToken: 'UYSaVMGSZ90svwKKgi7YA6m2CruszIoD6DJHAWFF55E',
+      usePreviewApi: true
+    },
     modulePrefix: 'portfolio',
     environment,
     rootURL: '/',
