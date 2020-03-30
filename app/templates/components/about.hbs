@@ -1,10 +1,19 @@
-<div class="about-section">
-    <div class="container mx-auto sm:py-32">
-        <div class="about-heading second-headings flex justify-center p-24 sm:p-4">
-            <h1>About Me</h1>
+<div class="about-me pt-4 pb-8">
+    <div class="container">
+        <div class="about-heading section-heading flex align-center-horizontal">
+            <h2>About Me</h2>
         </div>
-        <div class="about-text flex justify-center">
-            <p>I began my journey as a developer in January 2016, starting off the same way many other developers did, by writing a ‘hello world’ application. Before I joined the company that I work for, Adactus, I knew nothing about programming, but by joining as an apprentice I’ve managed to build up many different skills. After 4 years, and almost (1 year left) a degree later, I can now program in HTML, CSS, JavaScript, C#, JAVA, and SQL. I still have much to learn and will continue to improve on my skills, but for now I want to give back and help others who were in a similar position to me. I’m Cal and hopefully I can help you learn to code.</p>
+        <div class="about-text flex align-center-horizontal pb-8 text-24">
+            <p class=" w-70">I began my journey as a developer in January 2016, starting off the same way many other developers did, by writing a ‘hello world’ application. Before I joined the company that I work for, Adactus, I knew nothing about programming, but by joining as an apprentice I’ve managed to build up many different skills. After 4 years, and almost (1 year left) a degree later, I can now program in HTML, CSS, JavaScript, C#, JAVA, and SQL. I still have much to learn and will continue to improve on my skills, but for now I want to give back and help others who were in a similar position to me. I’m Cal and hopefully I can help you learn to code.</p>
+        </div>
+        <div class="language-logos flex space-evenly pb-8">
+            {{#each languages as |lang|}}
+                <div class="lang-logo-wrapper">
+                    <a href="{{lang.link}}" target="_blank">
+                        <img src="/assets/images/languages/{{lang.image}}.png" alt="HTML5"/>
+                    </a>
+                </div>
+            {{/each}}
         </div>
     </div>
 </div>
