@@ -10,6 +10,7 @@ $heading-size: 5.5em;
 
 /* Colours */
 $purple: #6C63FF;
+$darker-purple: #4C45B2;
 $background: #ECF4F4;
 $almost-black: #333131;
 $light-grey-heading: rgba(33,31,31,.8);
@@ -90,6 +91,22 @@ body {
     max-width: 70%;
 }
 
+.btn-purple-primary {
+    a {
+        background-color: $button-blue;
+        font-size: 2rem;
+        padding: .7em 1em;
+        text-decoration: none;
+        -webkit-box-shadow: 5px 10px 5px 0px rgba(255,255,255,0.5);
+        -moz-box-shadow: 5px 10px 5px 0px rgba(255,255,255,0.5);
+        box-shadow: 5px 10px 5px 0px rgba(255,255,255,0.5);
+    }
+
+    a:hover {
+        background-color: #1C1677;
+    }
+}
+
 header {
     max-height: 10em;
 
@@ -148,22 +165,6 @@ header {
     .blog-text {
         color: $almost-white-text;
     }
-
-    .blog-button {
-        a {
-            background-color: $button-blue;
-            font-size: 2rem;
-            padding: .7em 1em;
-            text-decoration: none;
-            -webkit-box-shadow: 5px 10px 5px 0px rgba(255,255,255,0.5);
-            -moz-box-shadow: 5px 10px 5px 0px rgba(255,255,255,0.5);
-            box-shadow: 5px 10px 5px 0px rgba(255,255,255,0.5);
-        }
-
-        a:hover {
-            background-color: #1C1677;
-        }
-    }
 }
 
 .youtube-section {
@@ -178,9 +179,15 @@ header {
     }
 }
 
-.background-gradient {
-    background: rgb(17,61,174);
-    background: linear-gradient(180deg, rgba(17,61,174,1) 0%, rgba(20,17,134,1) 100%);
+.contact-section {
+    .contact-text {
+        flex-wrap: wrap;
+        color: $light-grey-text;
+
+        > p {
+            max-width: 70%;
+        }
+    }
 }
 
 .home-section {
