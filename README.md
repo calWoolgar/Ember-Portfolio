@@ -1,3 +1,11 @@
+# TODO
+
+* Make it mobile friendly
+* Create blog page and blog posts page
+* Gallery of Youtube Videos
+* Maybe a page for my youtube and setup.
+* Find a way of always linking the latest youtube video on the home page
+
 # portfolio
 
 This is my application written in Ember which I'm going to use to show off my Javascript skills and to create a portfolio about myself.
