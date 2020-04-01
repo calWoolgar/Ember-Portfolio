@@ -5,6 +5,10 @@
 * Gallery of Youtube Videos
 * Maybe a page for my youtube and setup.
 * Find a way of always linking the latest youtube video on the home page
+* Add bounce and javascript to down arrow.
+* Make the svg character lean up against Cal logo instead of laptop! 
+* Make the YouTube text the logo.
+* Maybe remove the embed yt link on smaller than tablet, just show avatar with subscribe.
 
 # portfolio
 
