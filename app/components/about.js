@@ -17,7 +17,7 @@ export default Component.extend({
             "image": "JS",
             "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
         },{
-            "image": "Csharp",
+            "image": "CSharp",
             "link": "https://docs.microsoft.com/en-us/dotnet/csharp/"
         },{
             "image": "Java",
