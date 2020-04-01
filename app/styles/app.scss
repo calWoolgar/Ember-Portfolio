@@ -214,13 +214,19 @@ header {
 
 footer {
     padding: 1em;
-    color: #E2F3F5;
-    background-color: #0E153A;
-}
+    color: $almost-white-text;
+    background-color: $darker-purple;
+    
+    .footer-links {
+        > a {
+            font-size: 4em;
+            color: $almost-white-text;
+            margin: 0 .5em;
+        }
+    }
 
-.footer-links {
-    > a {
-        font-size: 3em;
+    .footer-text {
+        font-size: 2em;
     }
 }
 
