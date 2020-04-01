@@ -15,6 +15,7 @@ $almost-black: #333131;
 $light-grey-heading: rgba(33,31,31,.8);
 $light-grey-text: rgba(33,31,31,.7);
 $almost-white-text: #E2F3F5;
+$button-blue: #2C24B2;
 
 body {
     font-family: $text-font;
@@ -142,6 +143,22 @@ header {
 
     .blog-text {
         color: $almost-white-text;
+    }
+
+    .blog-button {
+        a {
+            background-color: $button-blue;
+            font-size: 2rem;
+            padding: .7em 1em;
+            text-decoration: none;
+            -webkit-box-shadow: 5px 10px 5px 0px rgba(255,255,255,0.5);
+            -moz-box-shadow: 5px 10px 5px 0px rgba(255,255,255,0.5);
+            box-shadow: 5px 10px 5px 0px rgba(255,255,255,0.5);
+        }
+
+        a:hover {
+            background-color: #1C1677;
+        }
     }
 }
 
