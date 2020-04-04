@@ -46,7 +46,16 @@ header {
     .heading {
         font-size: 3.6em;
         font-family: $heading-font;
-        color: $purple;
+        
+        
+        a {
+            text-decoration: none;
+            color: $purple;
+
+            &:hover {
+                color: $darker-purple;
+            }
+        }
     }
 
     .social {
@@ -54,6 +63,10 @@ header {
             font-size: 4.2em;
             color: $purple;
             margin-right: 1rem;
+
+            &:hover {
+                color: $darker-purple;
+            }
         }
     }
 }
@@ -144,7 +157,43 @@ footer {
     }
 }
 
+.blog-items {
+    margin: 3em 0;
+
+    .item {
+        width: 400px;
+        height: 400px;
+        margin: 2em;
+        background-size: contain;
+
+        .blog-card {
+            width: 370px;
+            height: 370px;
+            background-color: rgb(227, 223, 223, .8);
+
+            .card-header {
+                height: 100%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                h3 {
+                    font-size: 3em;
+                    text-align: center;
+                    padding: 0 .5em;
+                    color: $light-grey-heading;
+                }
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: $bp-large){
+    .blog-items {
+        grid-template-columns: 50% auto;
+    }
+
     header {
         .heading {
             font-size: 2.5em;
@@ -202,7 +251,35 @@ footer {
     }
 }
 
+@media only screen and (max-width: $bp-xlarge){
+    .blog-items {
+        .item {
+            height: 300px;
+            width: 300px;
+
+            .blog-card {
+                width: 270px;
+                height: 270px;
+
+                .card-header{
+                    h3 {
+                        font-size: 2em;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: $bp-medium){
+    .blog-items {
+        grid-template-columns: 100%;
+
+        .item {
+            margin: 2em auto;
+        }
+    }
+
     .hero-image-wrapper {
         img {
             max-width: 35em;

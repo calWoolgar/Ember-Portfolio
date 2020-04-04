@@ -9,6 +9,7 @@
 * Make the svg character lean up against Cal logo instead of laptop! 
 * Make the YouTube text the logo.
 * Maybe remove the embed yt link on smaller than tablet, just show avatar with subscribe.
+* Add animations such as the heading is typing.
 
 # portfolio
 

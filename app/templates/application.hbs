@@ -1,1 +1,19 @@
-{{outlet}}
+<header>
+    <div class="container flex space-between align-center-vertical">
+        <h1 class="heading w-full">{{#link-to 'index'}}Cal Woolgar{{/link-to}}</h1>
+        <div class="social">
+            <a target="_blank" href="https://twitter.com/callam_woolgar"><i class="fa fa-twitter"></i></a>
+            <a target="_blank" href="https://www.instagram.com/calwoolgar/"><i class="fa fa-instagram"></i></a>
+            <a target="_blank" href="https://www.youtube.com/channel/UCVe_D9xXXDwXyU2o0_cadxA?view_as=subscriber"><i class="fa fa-youtube"></i></a>
+        </div>
+    </div>
+</header>
+
+<main>
+    {{!-- The outlet renders the specific route. --}}
+    {{outlet}}
+
+    <Contact/>
+</main>
+
+<Footer/>

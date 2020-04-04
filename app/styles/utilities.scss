@@ -28,6 +28,11 @@
     justify-content: center;
 }
 
+.align-center {
+    align-items: center;
+    justify-content: center;
+}
+
 .pt-3 {
     padding-top: 3em;
 }
@@ -64,6 +69,14 @@
 
 .w-70 {
     max-width: 70%;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-blog-columns {
+    grid-template-columns: 33% 33% 33%;
 }
 
 @media only screen and (max-width: $bp-xlarge){
